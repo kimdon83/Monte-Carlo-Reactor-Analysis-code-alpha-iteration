@@ -1,0 +1,25 @@
+﻿  tally.cpp
+  source.cpp
+  rng.cpp
+  readINPUT.cpp
+readINPUT.cpp(42): warning C4244: '초기화 중' : 'std::streamoff'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+readINPUT.cpp(44): warning C4244: '초기화 중' : 'std::streamoff'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+readINPUT.cpp(77): warning C4244: '초기화 중' : 'std::streamoff'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+readINPUT.cpp(79): warning C4244: '초기화 중' : 'std::streamoff'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  readCX.cpp
+readCX.cpp(31): warning C4244: '초기화 중' : 'std::streamoff'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+readCX.cpp(33): warning C4244: '초기화 중' : 'std::streamoff'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ptcRUN.cpp
+  particle.cpp
+  mcman.cpp
+mcman.cpp(117): warning C4258: 'i' : for 루프의 정의가 무시되고 바깥쪽 범위의 정의가 사용됩니다.
+          mcman.cpp(108) : 'i' 정의가 무시됩니다.
+          mcman.cpp(103) : 'i' 정의가 사용됩니다.
+mcman.cpp(137): warning C4258: 'i' : for 루프의 정의가 무시되고 바깥쪽 범위의 정의가 사용됩니다.
+          mcman.cpp(130) : 'i' 정의가 무시됩니다.
+          mcman.cpp(124) : 'i' 정의가 사용됩니다.
+  main.cpp
+  cell.cpp
+  코드를 생성하고 있습니다...
+LINK : warning LNK4075: '/INCREMENTAL'이(가) '/PROFILE' 사양으로 인해 무시됩니다.
+  MCMC.vcxproj -> D:\lab_dh\2016봄\MCMC - sine fitting,Buckling - 복사본\x64\Debug\MCMC.exe
