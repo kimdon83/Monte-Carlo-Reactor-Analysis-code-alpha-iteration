@@ -1,0 +1,46 @@
+******************************INPUT******************************
+Material (
+  Mat 1
+);
+Option (
+	 C_SOURCE n 10000 cube ( 0 10 0 15 0 20 ) Group 1 inactive/active 10 10 implicitCap pre_alpha 185568
+
+);
+Cells (
+	PIN ( 10 1 ) ( 1 15 ) ( 0 1 0 15 )  0.63 0.63 0.54 0 20 20 Mat Mat
+	BC refl refl refl refl refl refl
+	Reflector 1 10 1 1
+);
+
+ออออออออออออýýýýÝÝÝำnถ๐บý
+
+
+
+******************************EigenMode******************************
+1 inactive cycle  alpha 375553.73724 (-nan(ind))  50
+2 inactive cycle  alpha 190968.32617 (92292.70554)  202
+3 inactive cycle  alpha 236205.86879 (55545.79576)  86
+4 inactive cycle  alpha 195644.34724 (43197.83186)  123
+5 inactive cycle  alpha 198967.28388 (34959.26793)  91
+6 inactive cycle  alpha 200369.16336 (29278.51039)  108
+7 inactive cycle  alpha 209526.49602 (24970.11260)  96
+8 inactive cycle  alpha 205984.61143 (21825.38566)  97
+9 inactive cycle  alpha 205532.89221 (19390.69615)  95
+10 inactive cycle  alpha 194663.36418 (17595.05762)  95
+ keff_C 221341.60905 17595.05762
+
+1 active cycle  alpha 209646.08119 (-nan(ind))  103
+2 active cycle  alpha 202949.34540 (3348.36789)  116
+3 active cycle  alpha 206641.09868 (1936.56673)  91
+4 active cycle  alpha 215361.76994 (2623.18477)  87
+5 active cycle  alpha 189526.05459 (4330.93737)  117
+6 active cycle  alpha 226802.51660 (5091.34722)  80
+7 active cycle  alpha 196022.26880 (4656.90912)  102
+8 active cycle  alpha 211416.71228 (4075.74328)  101
+9 active cycle  alpha 208015.18888 (3595.35651)  114
+10 active cycle  alpha 221322.02373 (3505.17880)  91
+ keff_C 208770.30601 3505.17880
+
+*----------------------------------------------------------------------------*
+      Time = 0.07430
+******************************************************************************

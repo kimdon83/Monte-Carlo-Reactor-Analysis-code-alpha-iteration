@@ -1,0 +1,226 @@
+******************************INPUT******************************
+Material (
+  Mat 1
+);
+Option (
+	 C_SOURCE n 10000 cube ( 0 10 0 15 0 20 ) Group 1 inactive/active 100 100 implicitCap pre_alpha 1000
+
+);
+Cells (
+	PIN ( 10 1 ) ( 1 15 ) ( 0 1 0 15 )  0.63 0.63 0.54 0 20 20 Mat Mat
+	BC refl refl refl refl refl refl
+	Reflector 1 10 1 1
+);
+
+
+
+
+
+******************************EigenMode******************************
+1 inactive cycle  alpha 741.20083 (-nan(ind))  13501
+2 inactive cycle  alpha 739.85820 (0.67132)  10078
+3 inactive cycle  alpha 741.16959 (0.44243)  9880
+4 inactive cycle  alpha 720.66029 (5.03038)  10209
+5 inactive cycle  alpha 742.95220 (4.15617)  9731
+6 inactive cycle  alpha 740.95186 (3.45159)  10183
+7 inactive cycle  alpha 739.24885 (2.92448)  9925
+8 inactive cycle  alpha 739.98849 (2.54476)  9914
+9 inactive cycle  alpha 738.94907 (2.24560)  10247
+10 inactive cycle  alpha 726.35517 (2.33846)  10328
+11 inactive cycle  alpha 737.05378 (2.11523)  9764
+12 inactive cycle  alpha 729.79592 (2.02525)  10248
+13 inactive cycle  alpha 729.07240 (1.94895)  9941
+14 inactive cycle  alpha 741.89780 (1.85384)  9767
+15 inactive cycle  alpha 723.00112 (1.94232)  10160
+16 inactive cycle  alpha 733.47380 (1.82118)  9912
+17 inactive cycle  alpha 734.10687 (1.71227)  9889
+18 inactive cycle  alpha 737.11130 (1.61755)  9930
+19 inactive cycle  alpha 741.11924 (1.55958)  10005
+20 inactive cycle  alpha 739.40910 (1.49123)  10056
+21 inactive cycle  alpha 731.22851 (1.43555)  10106
+22 inactive cycle  alpha 736.40632 (1.36918)  9833
+23 inactive cycle  alpha 737.04687 (1.30964)  10058
+24 inactive cycle  alpha 729.40613 (1.28137)  10074
+25 inactive cycle  alpha 742.29299 (1.25892)  9903
+26 inactive cycle  alpha 729.46061 (1.23349)  10360
+27 inactive cycle  alpha 730.70024 (1.20021)  10137
+28 inactive cycle  alpha 734.50764 (1.15692)  9975
+29 inactive cycle  alpha 742.20553 (1.14142)  9901
+30 inactive cycle  alpha 731.76603 (1.10987)  10213
+31 inactive cycle  alpha 722.23979 (1.15452)  10199
+32 inactive cycle  alpha 734.66015 (1.11791)  9795
+33 inactive cycle  alpha 723.98114 (1.13359)  10304
+34 inactive cycle  alpha 739.66313 (1.10960)  9746
+35 inactive cycle  alpha 726.47505 (1.10333)  10251
+36 inactive cycle  alpha 730.61937 (1.07780)  10031
+37 inactive cycle  alpha 739.63016 (1.05759)  9906
+38 inactive cycle  alpha 732.44187 (1.03093)  10152
+39 inactive cycle  alpha 735.93701 (1.00480)  9865
+40 inactive cycle  alpha 730.81153 (0.98384)  10054
+41 inactive cycle  alpha 729.48698 (0.96721)  9970
+42 inactive cycle  alpha 727.89092 (0.95635)  9864
+43 inactive cycle  alpha 729.61817 (0.93989)  10048
+44 inactive cycle  alpha 729.03434 (0.92544)  10071
+45 inactive cycle  alpha 725.33164 (0.92481)  10151
+46 inactive cycle  alpha 739.90300 (0.91421)  9764
+47 inactive cycle  alpha 744.86477 (0.92439)  10034
+48 inactive cycle  alpha 742.91326 (0.92316)  9961
+49 inactive cycle  alpha 743.73545 (0.92427)  10102
+50 inactive cycle  alpha 724.44727 (0.92775)  10221
+51 inactive cycle  alpha 729.77452 (0.91374)  9822
+52 inactive cycle  alpha 730.96380 (0.89819)  10105
+53 inactive cycle  alpha 730.28819 (0.88412)  10212
+54 inactive cycle  alpha 726.59849 (0.87864)  9906
+55 inactive cycle  alpha 727.74151 (0.86989)  10052
+56 inactive cycle  alpha 725.88323 (0.86596)  10089
+57 inactive cycle  alpha 734.00682 (0.85065)  9948
+58 inactive cycle  alpha 733.87340 (0.83586)  9943
+59 inactive cycle  alpha 741.49961 (0.83211)  9876
+60 inactive cycle  alpha 731.39318 (0.81914)  10096
+61 inactive cycle  alpha 728.63554 (0.81004)  10134
+62 inactive cycle  alpha 735.28550 (0.79727)  9852
+63 inactive cycle  alpha 734.53484 (0.78461)  9959
+64 inactive cycle  alpha 728.59872 (0.77645)  10033
+65 inactive cycle  alpha 728.16069 (0.76910)  9958
+66 inactive cycle  alpha 736.59475 (0.75873)  9878
+67 inactive cycle  alpha 733.85630 (0.74732)  10028
+68 inactive cycle  alpha 730.72221 (0.73750)  10176
+69 inactive cycle  alpha 746.47927 (0.75034)  9711
+70 inactive cycle  alpha 737.36100 (0.74130)  10038
+71 inactive cycle  alpha 729.51618 (0.73331)  10231
+72 inactive cycle  alpha 737.17847 (0.72460)  9919
+73 inactive cycle  alpha 724.34364 (0.72630)  10041
+74 inactive cycle  alpha 738.85183 (0.71981)  9913
+75 inactive cycle  alpha 729.99568 (0.71192)  10194
+76 inactive cycle  alpha 737.21544 (0.70400)  9931
+77 inactive cycle  alpha 734.38050 (0.69484)  9913
+78 inactive cycle  alpha 733.07502 (0.68594)  9901
+79 inactive cycle  alpha 746.10946 (0.69502)  9778
+80 inactive cycle  alpha 734.01768 (0.68628)  10257
+81 inactive cycle  alpha 732.48472 (0.67798)  9917
+82 inactive cycle  alpha 734.80497 (0.66975)  9986
+83 inactive cycle  alpha 737.68952 (0.66320)  9909
+84 inactive cycle  alpha 732.43928 (0.65551)  10100
+85 inactive cycle  alpha 733.40120 (0.64778)  9947
+86 inactive cycle  alpha 735.29296 (0.64040)  10085
+87 inactive cycle  alpha 734.38066 (0.63302)  9922
+88 inactive cycle  alpha 732.80121 (0.62592)  10033
+89 inactive cycle  alpha 731.53613 (0.61943)  10023
+90 inactive cycle  alpha 733.18479 (0.61256)  9934
+91 inactive cycle  alpha 748.90736 (0.62784)  9821
+92 inactive cycle  alpha 731.31565 (0.62170)  10232
+93 inactive cycle  alpha 736.22495 (0.61543)  9652
+94 inactive cycle  alpha 720.50263 (0.62569)  10140
+95 inactive cycle  alpha 730.43220 (0.62016)  9838
+96 inactive cycle  alpha 742.41789 (0.62008)  9799
+97 inactive cycle  alpha 739.73479 (0.61652)  10015
+98 inactive cycle  alpha 737.45836 (0.61120)  10127
+99 inactive cycle  alpha 724.66029 (0.61241)  10216
+100 inactive cycle  alpha 734.80207 (0.60631)  9896
+ keff_C 733.97489 0.60631
+
+1 active cycle  alpha 745.44390 (-nan(ind))  9899
+2 active cycle  alpha 731.73266 (6.85562)  10192
+3 active cycle  alpha 731.72108 (4.57234)  9874
+4 active cycle  alpha 726.67605 (4.03001)  10020
+5 active cycle  alpha 732.73135 (3.13027)  10006
+6 active cycle  alpha 739.00202 (2.70644)  9949
+7 active cycle  alpha 737.54520 (2.32700)  9983
+8 active cycle  alpha 737.75740 (2.04495)  9985
+9 active cycle  alpha 736.03560 (1.80520)  9926
+10 active cycle  alpha 731.91307 (1.65195)  10114
+11 active cycle  alpha 730.88201 (1.54167)  10109
+12 active cycle  alpha 726.91492 (1.54886)  9959
+13 active cycle  alpha 734.36834 (1.42498)  9837
+14 active cycle  alpha 737.64777 (1.34399)  9983
+15 active cycle  alpha 726.31443 (1.36006)  10137
+16 active cycle  alpha 738.82665 (1.31075)  9828
+17 active cycle  alpha 734.94463 (1.23225)  9991
+18 active cycle  alpha 730.91296 (1.17557)  10097
+19 active cycle  alpha 738.83088 (1.14109)  9834
+20 active cycle  alpha 729.98040 (1.10310)  10025
+21 active cycle  alpha 734.91876 (1.05015)  9823
+22 active cycle  alpha 742.75951 (1.07666)  9918
+23 active cycle  alpha 727.96402 (1.06671)  10143
+24 active cycle  alpha 737.33121 (1.02978)  9768
+25 active cycle  alpha 734.96204 (0.98809)  10031
+26 active cycle  alpha 735.32462 (0.95010)  9862
+27 active cycle  alpha 721.17323 (1.03657)  10174
+28 active cycle  alpha 723.80973 (1.06157)  10044
+29 active cycle  alpha 733.58415 (1.02432)  9812
+30 active cycle  alpha 736.65835 (0.99511)  9922
+31 active cycle  alpha 731.62532 (0.96462)  10069
+32 active cycle  alpha 730.81481 (0.93792)  10040
+33 active cycle  alpha 735.17383 (0.91051)  9816
+34 active cycle  alpha 734.63507 (0.88393)  9935
+35 active cycle  alpha 732.77105 (0.85860)  9754
+36 active cycle  alpha 742.15929 (0.86813)  9635
+37 active cycle  alpha 737.31694 (0.84975)  10023
+38 active cycle  alpha 736.29137 (0.82954)  9936
+39 active cycle  alpha 728.82698 (0.81853)  10032
+40 active cycle  alpha 731.80069 (0.79937)  9927
+41 active cycle  alpha 725.60417 (0.80456)  9959
+42 active cycle  alpha 733.87666 (0.78521)  9811
+43 active cycle  alpha 728.82282 (0.77461)  10085
+44 active cycle  alpha 729.27524 (0.76272)  10066
+45 active cycle  alpha 720.86252 (0.79559)  10267
+46 active cycle  alpha 728.52952 (0.78437)  10009
+47 active cycle  alpha 727.28479 (0.77700)  10047
+48 active cycle  alpha 730.74558 (0.76191)  10002
+49 active cycle  alpha 731.35651 (0.74679)  10177
+50 active cycle  alpha 727.51952 (0.73924)  10062
+51 active cycle  alpha 730.11668 (0.72634)  9973
+52 active cycle  alpha 740.07053 (0.72647)  9895
+53 active cycle  alpha 735.51679 (0.71451)  10170
+54 active cycle  alpha 729.66038 (0.70360)  10004
+55 active cycle  alpha 739.44381 (0.70128)  9880
+56 active cycle  alpha 733.92594 (0.68890)  10109
+57 active cycle  alpha 723.83451 (0.69516)  10143
+58 active cycle  alpha 733.44609 (0.68318)  9765
+59 active cycle  alpha 736.93926 (0.67523)  9968
+60 active cycle  alpha 738.57011 (0.67074)  9854
+61 active cycle  alpha 733.26184 (0.65967)  10007
+62 active cycle  alpha 731.65762 (0.64927)  10125
+63 active cycle  alpha 734.46324 (0.63936)  9790
+64 active cycle  alpha 736.69261 (0.63202)  10016
+65 active cycle  alpha 733.54776 (0.62228)  9963
+66 active cycle  alpha 729.09298 (0.61564)  10222
+67 active cycle  alpha 727.44863 (0.61190)  9996
+68 active cycle  alpha 740.41080 (0.61297)  9853
+69 active cycle  alpha 728.23643 (0.60791)  10346
+70 active cycle  alpha 733.48712 (0.59922)  9978
+71 active cycle  alpha 735.39939 (0.59176)  10072
+72 active cycle  alpha 739.90472 (0.59143)  10024
+73 active cycle  alpha 737.86989 (0.58701)  10154
+74 active cycle  alpha 733.12250 (0.57902)  10217
+75 active cycle  alpha 730.88754 (0.57202)  10041
+76 active cycle  alpha 734.88745 (0.56494)  10069
+77 active cycle  alpha 734.82447 (0.55800)  9996
+78 active cycle  alpha 734.55957 (0.55111)  10134
+79 active cycle  alpha 735.94088 (0.54524)  10039
+80 active cycle  alpha 737.42452 (0.54099)  9879
+81 active cycle  alpha 734.64800 (0.53456)  10008
+82 active cycle  alpha 735.37359 (0.52863)  9788
+83 active cycle  alpha 735.50413 (0.52291)  9983
+84 active cycle  alpha 735.89198 (0.51757)  10000
+85 active cycle  alpha 733.11301 (0.51145)  9905
+86 active cycle  alpha 732.24551 (0.50563)  9875
+87 active cycle  alpha 730.17093 (0.50109)  10064
+88 active cycle  alpha 738.99385 (0.49959)  9803
+89 active cycle  alpha 726.50706 (0.49989)  10123
+90 active cycle  alpha 727.90355 (0.49789)  9955
+91 active cycle  alpha 727.59133 (0.49625)  10033
+92 active cycle  alpha 728.83087 (0.49306)  10215
+93 active cycle  alpha 731.19780 (0.48816)  9846
+94 active cycle  alpha 747.97635 (0.50827)  9825
+95 active cycle  alpha 727.52506 (0.50648)  10227
+96 active cycle  alpha 722.50889 (0.51335)  10116
+97 active cycle  alpha 734.03377 (0.50813)  9818
+98 active cycle  alpha 740.41899 (0.50846)  9798
+99 active cycle  alpha 735.20896 (0.50373)  10116
+100 active cycle  alpha 730.06068 (0.49964)  10133
+ keff_C 733.14308 0.49964
+
+*----------------------------------------------------------------------------*
+      Time = 516.64693
+******************************************************************************

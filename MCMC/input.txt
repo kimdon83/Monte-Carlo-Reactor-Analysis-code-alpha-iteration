@@ -1,0 +1,13 @@
+Material (
+  Mat 1
+);
+Option (
+	 C_SOURCE n 1000 cube ( 0 10 0 15 0 20 ) Group 1 inactive/active 1000 1000 implicitCap pre_alpha 1000
+
+);
+Cells (
+	PIN ( 10 1 ) ( 1 15 ) ( 0 1 0 15 )  0.63 0.63 0.54 0 20 20 Mat Mat
+	BC refl refl refl refl refl refl
+	Reflector 1 10 1 1
+);
+
